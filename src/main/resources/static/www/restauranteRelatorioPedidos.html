@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>BlueFood</title>
+		<link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css">
+	</head>
+	<body>
+		<header>
+			<div id="divLogotipoSistema">
+				<span id="spanAuxiliarDeAlinhamentoVertical"></span>
+				<a href="#">
+					<img alt="" src="images/bf_logotipoSistema.png" id="imgLogotipoSistema">
+				</a>
+			</div>
+			<div id="divUsuarioLogado">
+				Olá nome do usuário!
+			</div>
+		</header>
+		<br><br>
+		<!-- cabecalho - fim -->
+		
+		<div>
+			<h1>Relatório De Itens</h1>
+			<fieldset>
+				<legend>Filtros</legend>
+				<label for="numero">Item: </label>
+				<br/>
+				<input type="text" id="numero" name="numero"/>
+				<br/>
+				<label for="inicio">Início: </label>
+				<br/>
+				<input type="date" id="inicio" name="inicio"/>
+				<br/>
+				<label for="fim">Fim: </label>
+				<br/>
+				<input type="date" id="fim" name="fim"/>
+				<br/>
+			</fieldset>
+		</div>
+		<br/><br/>
+		
+		<div>
+			<table>
+				<tr>
+					<th>Pedido</th>
+					<th>Nome</th>
+					<th>Endereço</th>
+					<th>Valor</th>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="button" value="#35334"/>
+					</td>
+					<td>Samuel</td>
+					<td>Rua flores 75</td>
+					<td>R$ 75,00</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="button" value="#35334"/>
+					</td>
+					<td>Samuel</td>
+					<td>Rua flores 75</td>
+					<td>R$ 75,00</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="button" value="#35334"/>
+					</td>
+					<td>Samuel</td>
+					<td>Rua flores 75</td>
+					<td>R$ 75,00</td>
+				</tr>
+			</table>
+		</div>
+
+		<input type="button" value="voltar"/>
+		<!-- rodape - inicio -->
+	</body>
+</html>
